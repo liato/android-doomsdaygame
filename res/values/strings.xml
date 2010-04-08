@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DoomsdayGame!</string>
+    <string name="app_name">Doomsday Game</string>
+	<string name="question_mark">\u003F</string>
+	<string name="correct">\u263A Correct!</string>
+	<string name="wrong">\u2639 Wrong!</string>
+	<string name="answers">"You've answered &lt;b>%1$d&lt;/b> of &lt;b>%2$d&lt;/b> questions correctly."</string>
+	<string name="settings">Settings</string>
+	<string name="settings_desc1">Let me guess dates between</string>
+	<string name="settings_desc2">and</string>
+	<string name="ok">Ok</string>
+	<string name="save_settings">Save settings</string>
+	<string name="cancel">Cancel</string>
+</resources>

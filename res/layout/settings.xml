@@ -1,0 +1,11 @@
+<ScrollView android:id="@+id/ScrollView01" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings" android:textSize="38sp" android:typeface="sans" android:textColor="#ff5594d2" android:gravity="center" android:id="@+id/txtSettingsHeader" android:paddingTop="3sp" android:paddingBottom="3sp">
+</TextView><TextView android:layout_height="wrap_content" android:id="@+id/txtSettingsDesc1" android:text="@string/settings_desc1" android:layout_width="fill_parent" android:padding="2sp" android:gravity="center"></TextView>
+
+<DatePicker android:layout_height="wrap_content" android:id="@+id/dtpFrom" android:layout_width="fill_parent"></DatePicker><TextView android:layout_height="wrap_content" android:text="@string/settings_desc2" android:layout_width="fill_parent" android:padding="2sp" android:id="@+id/txtSettingsDesc2" android:gravity="center"></TextView><DatePicker android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/dtpTo"></DatePicker>
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="8sp" android:stretchColumns="*"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:text="@string/cancel" android:drawableLeft="@android:drawable/ic_menu_close_clear_cancel" android:layout_width="fill_parent" android:id="@+id/btnSettingsCancel"></Button><Button android:layout_height="wrap_content" android:drawableLeft="@android:drawable/ic_menu_save" android:text="@string/save_settings" android:layout_width="fill_parent" android:id="@+id/btnSettingsOk"></Button></TableRow></TableLayout>
+</LinearLayout>
+
+</ScrollView>

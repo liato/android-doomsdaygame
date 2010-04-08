@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget34"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:paddingRight="40sp" android:layout_marginBottom="-98sp"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/question_mark" android:textSize="80sp" android:textColor="#414F5F" android:id="@+id/txtQMark"></TextView>
+</AbsoluteLayout><TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="20px"
+android:text="Which weekday is"
+android:textSize="20sp"
+android:typeface="sans"
+android:textColor="#ff7a9ab1"
+android:gravity="center"
+android:id="@+id/txtHeader">
+</TextView>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="-10px"
+android:text="2010-04-08"
+android:textSize="38sp"
+android:typeface="sans"
+android:textStyle="bold"
+android:textColor="#ff5594d2"
+android:gravity="center" android:id="@+id/txtDate">
+</TextView>
+
+
+
+
+
+
+
+
+
+
+<TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:stretchColumns="*" android:paddingTop="20px" android:paddingLeft="10px" android:paddingRight="10px"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:text="Mon" android:layout_width="fill_parent" android:id="@+id/btnMon" android:tag="2"></Button>
+<Button android:layout_height="wrap_content" android:text="Tue" android:layout_width="fill_parent" android:id="@+id/btnTue" android:tag="3"></Button>
+<Button android:layout_height="wrap_content" android:text="Wed" android:layout_width="fill_parent" android:id="@+id/btnWed" android:tag="4"></Button>
+<Button android:layout_height="wrap_content" android:text="Thu" android:layout_width="fill_parent" android:id="@+id/btnThu" android:tag="5"></Button>
+</TableRow>
+
+</TableLayout><TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:stretchColumns="*" android:paddingRight="10px" android:paddingLeft="10px" android:paddingTop="5px"><TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent"><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Fri" android:id="@+id/btnFri" android:tag="6"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Sat" android:id="@+id/btnSat" android:tag="7"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Sun" android:id="@+id/btnSun" android:tag="1"></Button>
+
+</TableRow>
+
+</TableLayout>
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imgResult"></ImageView>
+
+
+<TextView android:layout_height="wrap_content" android:id="@+id/txtResult" android:gravity="center" android:layout_width="fill_parent" android:textSize="45sp" android:typeface="sans" android:text="@string/correct" android:textColor="#32DF00" android:visibility="invisible" android:paddingTop="50sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="bottom|left" android:textSize="12sp" android:typeface="sans" android:paddingLeft="3sp" android:paddingBottom="3sp" android:id="@+id/txtAnswers" android:textColor="@color/answers"></TextView>
+</LinearLayout>

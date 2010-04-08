@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="correct">#7AB317</color>
+	<color name="wrong">#CC4B28</color>
+	<color name="answers">#CDCDCD</color>
+</resources>
